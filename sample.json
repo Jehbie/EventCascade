@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "event": "eventID",
+    "amount": "300.00",
+    "orderUrl": "https://localhost:14142/apps/346KRC5BjXXXo8cRFKwTBmdR6ZJ4/pos",
+    "itemDesc": "Tea shop"
+  },
+  "checkout": {
+    "speedPolicy": "HighSpeed",
+    "paymentMethods": ["BTC"],
+    "defaultPaymentMethod": "BTC",
+    "lazyPaymentMethods": true,
+    "expirationMinutes": 90,
+    "monitoringMinutes": 90,
+    "paymentTolerance": 0,
+    "redirectURL": "https://localhost:14142/apps/",
+    "redirectAutomatically": true,
+    "requiresRefundEmail": true,
+    "checkoutType": null,
+    "defaultLanguage": "EN"
+  },
+  "receipt": {
+    "enabled": true,
+    "showQR": null,
+    "showPayments": null
+  },
+  "amount": "5.00"
+}
